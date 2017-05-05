@@ -1,0 +1,3 @@
+# Project_Student
+这里是一个简单的项目，利用所学的jsp+Servlet+jdbc+dbutils+mysql进行测试的一个小项目
+仅仅包含了对Student的增删改查，但是却能巩固所学的这些基础知识

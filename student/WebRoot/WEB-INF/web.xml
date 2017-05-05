@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>AddStudentUIServlet</servlet-name>
+    <servlet-class>web.UI.AddStudentUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>web.contralloer.AddStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WatchFirstNameUIServlet</servlet-name>
+    <servlet-class>web.UI.WatchFirstNameUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WatchForFirstNameServlet</servlet-name>
+    <servlet-class>web.contralloer.WatchForFirstNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WatchStudentUIForName</servlet-name>
+    <servlet-class>web.UI.WatchStudentUIForName</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WatchForNameServlet</servlet-name>
+    <servlet-class>web.contralloer.WatchForNameServlet</servlet-class>
+  </servlet>
+ 
+  <servlet>
+    <servlet-name>WatchForNum</servlet-name>
+    <servlet-class>web.contralloer.WatchForNum</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WatchStudentForNumUI</servlet-name>
+    <servlet-class>web.UI.WatchStudentForNumUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DropStudentUIServlet</servlet-name>
+    <servlet-class>web.UI.DropStudentUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DropStudentServlet</servlet-name>
+    <servlet-class>web.contralloer.DropStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WatchAllStudent</servlet-name>
+    <servlet-class>web.contralloer.WatchAllStudent</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddStudentUIServlet</servlet-name>
+    <url-pattern>/servlet/AddStudentUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/servlet/AddStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WatchFirstNameUIServlet</servlet-name>
+    <url-pattern>/servlet/WatchFirstNameUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WatchForFirstNameServlet</servlet-name>
+    <url-pattern>/servlet/WatchForFirstNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WatchStudentUIForName</servlet-name>
+    <url-pattern>/servlet/WatchStudentUIForName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WatchForNameServlet</servlet-name>
+    <url-pattern>/servlet/WatchForNameServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+    <servlet-name>WatchForNum</servlet-name>
+    <url-pattern>/servlet/WatchForNum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WatchStudentForNumUI</servlet-name>
+    <url-pattern>/servlet/WatchStudentForNumUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DropStudentUIServlet</servlet-name>
+    <url-pattern>/servlet/DropStudentUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DropStudentServlet</servlet-name>
+    <url-pattern>/servlet/DropStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WatchAllStudent</servlet-name>
+    <url-pattern>/servlet/WatchAllStudent</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
